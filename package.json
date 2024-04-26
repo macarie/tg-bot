@@ -1,0 +1,14 @@
+{
+	"name": "tg-bot",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"check": "biome check .",
+		"check.types": "tsc"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.7.1",
+		"typescript": "^5.4.5"
+	}
+}

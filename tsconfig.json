@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"noEmit": true,
+
+		// base options
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"target": "esnext",
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"moduleDetection": "force",
+		"isolatedModules": true,
+
+		// strictness options
+		"strict": true,
+		"noUncheckedIndexedAccess": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		// module options
+		"moduleResolution": "nodenext",
+		"module": "nodenext",
+		"allowImportingTsExtensions": true,
+	},
+	"include": ["source"],
+}
